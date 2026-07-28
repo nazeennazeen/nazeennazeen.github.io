@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazeen Fuad Mohammed | Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" style="text-decoration: none;">
+                    <div class="logo">Nazeen Fuad</div>
+                </a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#languages">Skills</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Design">Design</a>
+                    <a href="#Experience">Experience</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="nav-overlay" id="navOverlay"></div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Nazeen Fuad</h1>
+                <h2 class="hero-subtitle">Programmer and Graphic Designer, Expert in Arduino and Robotics</h2>
+                <div class="hero-btns">
+                    <a href="#Projects" class="hero-cta">View My Projects</a>
+                    <a href="#contact" class="hero-cta secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-image fade-in">
+                    <img src="Pictures/photo_2026-07-28_17-10-08.jpg" alt="Nazeen Fuad Mohammed">
+                </div>
+              <div class="about-text fade-in">
+    <p>I'm a Computer Engineering student at Lebanese French University with a passion for creating innovative digital solutions that combine technology, creativity, and design. As the top-ranked student in the Faculty of Engineering and Computer Science, I enjoy transforming ideas into impactful projects through software development, UI design, digital marketing, and visual storytelling.</p>
+
+    <p>Beyond academics, I have led media teams, managed social media platforms, and created engaging digital content for organizations and communities. My technical background includes web development with HTML, CSS, JavaScript, and C++, along with experience in MATLAB and Microsoft Office. I also specialize in graphic design using Adobe Photoshop, where I create branding materials, promotional content, and creative visual designs.</p>
+
+    <p>I believe the best technology is built by combining technical expertise with creativity, effective communication, and problem-solving. I'm always eager to learn, collaborate, and contribute to projects that make a meaningful impact.</p>
+</div>
+        </div>
+    </section>
+
+    <section id="languages" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Skills & Tools</h2>
+            <div class="languages-grid">
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                            alt="HTML">
+                    </div>
+                    <h3 style="color: #e67128;">HTML</h3>
+                    <p>HyperText Markup Language</p>
+                </div>
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                            alt="CSS">
+                    </div>
+                    <h3 style="color: #00bbff">CSS</h3>
+                    <p>Cascading Style Sheets</p>
+                </div>
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                            alt="JavaScript">
+                    </div>
+                    <h3 style="color: #f1e05a;">JavaScript</h3>
+                    <p>Web development and interactive web pages</p>
+                </div>
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                            alt="C++">
+                    </div>
+                    <h3 style="color: #008cff">C++</h3>
+                    <p>Powerful programming language & Object-Oriented</p>
+                </div>
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+                            alt="C#">
+                    </div>
+                    <h3 style="color: #c800ff">C#</h3>
+                    <p>Object-Oriented programming language</p>
+                </div>
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg"
+                            alt="MATLAB">
+                    </div>
+                    <h3 style="color: #e67128;">MATLAB</h3>
+                    <p>Technical computing language and environment</p>
+                </div>
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg"
+                            alt="Arduino">
+                    </div>
+                    <h3 style="color: #0da080">Arduino / C</h3>
+                    <p>Microcontroller programming for hardware projects</p>
+                </div>
+                <div class="language-card fade-in">
+                    <div class="lang-icon">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-original.svg"
+                            alt="Photoshop">
+                    </div>
+                    <h3 style="color: #008cff">Photoshop</h3>
+                    <p>Image editing and design</p>
+                </div>
+                <div class="language-card fade-in">
+    <div class="lang-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg"
+            alt="Adobe Premiere Pro" width="100" height="100">
+    </div>
+    <h3 style="color: #999999">Adobe Premiere Pro</h3>
+    <p>Video editing & post-production</p>
+</div>
+<div class="language-card fade-in">
+    <div class="lang-icon">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+            alt="GitHub" style="filter: invert(1);">
+    </div>
+    <h3 style="color: #ffffff">GitHub</h3>
+    <p>Version control & collaboration</p>
+</div>
+<div class="language-card fade-in">
+    <div class="lang-icon">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+            alt="MongoDB">
+    </div>
+    <h3 style="color: #47A248">MongoDB</h3>
+    <p>NoSQL database management</p>
+</div>
+<div class="language-card fade-in">
+    <div class="lang-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+            alt="Microsoft Office" width="100" height="100">
+    </div>
+    <h3 style="color: #f22121">MS Office</h3>
+    <p>Microsoft Office Suite</p>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">My Projects</h2>
+            <div class="Projects-grid">
+                <div class="Projects-item fade-in">
+                    <div class="projects-img-container">
+                        <img src="Pictures\LFU Ai.png" alt="LFU AI Project">
+                        <div class="cert-overlay">
+                            <button class="view-btn" onclick="window.open('https://lfu-ai.my/', '_blank')"> View Project
+                                <i class="fa fa-code"></i></button>
+                        </div>
+                    </div>
+                    <div class="Projects-info">
+                        <h3>LFU AI Project</h3>
+                        <p>Complete system ready for market deployment</p>
+                        <div class="projects-tags">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>JavaScript</button>
+                            <button>Python</button>
+                            <button>FireBase</button>
+                            <button>OpenAI</button>
+                            <button>Railway</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Projects-item fade-in">
+                    <div class="projects-img-container">
+                        <img src="Pictures\PDF AI.png" alt="PDF AI Project">
+                        <div class="cert-overlay">
+                            <button class="view-btn" onclick="window.open('https://pdf-ai.my/', '_blank')"> View Project
+                                <i class="fa fa-code"></i></button>
+                        </div>
+                    </div>
+                    <div class="Projects-info">
+                        <h3>PDF AI Project</h3>
+                        <p>Complete system ready for market deployment</p>
+                        <div class="projects-tags">
+                            <button>React</button>
+                            <button>Node.js</button>
+                            <button>Express.js</button>
+                            <button>CSS</button>
+                            <button>Google AI</button>
+                            <button>MongoDB</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Projects-item fade-in">
+                    <div class="projects-img-container">
+                        <img src="Pictures\HomeSystem.jpg" alt="Home System Project">
+                        <div class="cert-overlay">
+                            <button class="view-btn"
+                                onclick="window.open('https://imxoshnawm.github.io/my-web-project-hardware/menu/Home%20System/Home%20System_ku.html', '_blank')">
+                                View Project <i class="fa fa-code"></i></button>
+                        </div>
+                    </div>
+                    <div class="Projects-info">
+                        <h3>Home System</h3>
+                        <p>Arduino-based home automation system with lighting sensors</p>
+                        <div class="projects-tags">
+                            <button>Arduino</button>
+                            <button>C++</button>
+                            <button>Sensors</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Projects-item fade-in">
+                    <div class="projects-img-container">
+                        <img src="Pictures/SchoolSystem.jpg" alt="School Management Software">
+                        <div class="cert-overlay">
+                            <button class="view-btn" onclick="window.open('#', '_blank')"> View Project <i
+                                    class="fa fa-code"></i></button>
+                        </div>
+                    </div>
+                    <div class="Projects-info">
+                        <h3>School Management Software</h3>
+                        <p>Complete system ready for market deployment</p>
+                        <div class="projects-tags">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>JavaScript</button>
+                            <button>FireBase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Design" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Graphic Design</h2>
+            <div class="Projects-grid">
+                <div class="Projects-item fade-in">
+                    <div class="design-img-container">
+                        <img src="Pictures\volly.jpg" alt="Graphic Design">
+                        <div class="cert-overlay">
+                            <button class="view-btn" onclick="openModal('Pictures/volly.jpg')"> View Design <i
+                                    class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="Projects-info">
+                        <h3>Graphic Design</h3>
+                        <p>Posters and social media content</p>
+                        <div class="projects-tags">
+                            <button>Photoshop</button>
+                            <button>Design</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Projects-item fade-in">
+                    <div class="design-img-container">
+                        <img src="Pictures\inception.jpg" alt="Graphic Design">
+                        <div class="cert-overlay">
+                            <button class="view-btn" onclick="openModal('Pictures/inception.jpg')"> View Design <i
+                                    class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="Projects-info">
+                        <h3>Graphic Design</h3>
+                        <p>Posters and social media content</p>
+                        <div class="projects-tags">
+                            <button>Photoshop</button>
+                            <button>Design</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Projects-item fade-in">
+                    <div class="design-img-container">
+                        <img src="Pictures\Graphics-4.png" alt="Graphic Design">
+                        <div class="cert-overlay">
+                            <button class="view-btn" onclick="openModal('Pictures/Graphics-4.png')"> View Design <i
+                                    class="fa fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="Projects-info">
+                        <h3>Graphic Design</h3>
+                        <p>Posters and social media content</p>
+                        <div class="projects-tags">
+                            <button>Photoshop</button>
+                            <button>Design</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="Experience" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card fade-in">
+                    <div class="experience-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="experience-title">Programming</h3>
+                    <p class="experience-desc">Proficient in C++, C#, MATLAB, and MS Office suite. Experience with
+                        hardware-software integration.</p>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3 class="experience-title">Robotics</h3>
+                    <p class="experience-desc">Extensive experience with Arduino and robotics projects through the NICER
+                        Club.</p>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3 class="experience-title">Design</h3>
+                    <p class="experience-desc">Skilled in Adobe Photoshop, creating posters and social media content for
+                        various platforms.</p>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-icon"><i class="fa-solid fa-language"></i></div>
+                    <h3 class="experience-title">Languages</h3>
+                    <p class="experience-desc">Native Kurdish speaker, fluent in English, and beginner level in Arabic.
+                    </p>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-icon"><i class="fa-solid fa-users-gear"></i></div>
+                    <h3 class="experience-title">Management</h3>
+                    <p class="experience-desc">Experience in marketing, leadership training, and managing complex
+                        project workflows.</p>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3 class="experience-title">Innovation</h3>
+                    <p class="experience-desc">Developing creative ideas for software, physical games, and hardware
+                        solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <h2 class="section-title fade-in">My Certificates</h2>
+            <div class="certificate-list">
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/Traditional.jpg" alt="">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/Traditional.jpg')">View
+                                Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Traditional Certificate</h3>
+                        <p class="cert-org">Traditional</p>
+                        <p class="cert-year">2023</p>
+                    </div>
+                </div>
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/Nicer.jpg" alt="">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/Nicer.jpg')">View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Nicer Certificate</h3>
+                        <p class="cert-org">Nicer</p>
+                        <p class="cert-year">2024</p>
+                    </div>
+                </div>
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/IEEE.jpg" alt="IEEE Certificate">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/IEEE.jpg')">View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>IEEE Certificate</h3>
+                        <p class="cert-org">IEEE</p>
+                        <p class="cert-year">2025</p>
+                    </div>
+                </div>
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/NICE Certificates .jpg" alt="NICE 2025">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/NICE Certificates .jpg')">View
+                                Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>NICE - 2025</h3>
+                        <p class="cert-org">NICE</p>
+                        <p class="cert-year">2025</p>
+                    </div>
+                </div>
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/Cihan Institute.jpg" alt="CIHAN INSTITUTE">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/Cihan Institute.jpg')">View
+                                Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>CIHAN INSTITUTE</h3>
+                        <p class="cert-org">Cihan University</p>
+                        <p class="cert-year">2025</p>
+                    </div>
+                </div>
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/topranked.jpg" alt="First ranked">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/topranked.jpg')">View
+                                Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>First ranked</h3>
+                        <p class="cert-org">of engineering Dept</p>
+                        <p class="cert-year">2024-2025</p>
+                    </div>
+                </div>
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/engtop.jpg" alt="First place">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/engtop.jpg')">View
+                                Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>First place</h3>
+                        <p class="cert-org">across all stages</p>
+                        <p class="cert-year">2024-2025</p>
+                    </div>
+                </div>
+                <div class="certificate-card fade-in">
+                    <div class="cert-img-container">
+                        <img src="Pictures/Nasa.png" alt="NASA">
+                        <div class="cert-overlay">
+                            <span class="view-btn" onclick="openModal('Pictures/Nasa.png')">View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>NASA</h3>
+                        <p class="cert-org">Nasa Space Apps challenge</p>
+                        <p class="cert-year">2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="certModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content-wrapper">
+            <img class="modal-content" id="modalImg">
+            <div id="caption"></div>
+        </div>
+    </div>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact Me</h2>
+            <div class="contact-grid">
+                <div class="contact-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contact-info-text">
+                        <h4>Location</h4>
+                        <p>Erbil, Kurdistan</p>
+                    </div>
+                </div>
+                <div class="contact-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contact-info-text">
+                        <h4>Phone</h4>
+                        <p><a href="tel:07505647717">07505647717</a></p>
+                    </div>
+                </div>
+                <div class="contact-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contact-info-text">
+                        <h4>Email</h4>
+                        <p><a href="mailto:Nazeenfuad0@gmail.com">Nazeenfuad0@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-card fade-in">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-file-pdf"></i>
+                    </div>
+                    <div class="contact-info-text">
+                        <h4>Resume</h4>
+                        <p><a href="Nazeen_Fuad.pdf" target="_blank" class="download-btn">Open My CV</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    © 2026 Nazeen Fuad | All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+
+</html>
